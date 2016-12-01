@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Contact Form</title>
+<link href="style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Asap|Play" rel="stylesheet">
+<script src="contact_form.js"></script>
+</head>
+<body>
+    <div class="whole_container">
+     <div id="container_email">
+         <label>Contacts</label>
+         <div id="email_contact">
+             <input id="email" type="text" value="" placeholder="yyyy@rr.com" >
+         </div>
+         <div id="email_subject_message">
+             <label>Subject</label>
+             <input id="subject" type="text" maxlength="78" placeholder="You can add a subject">
+             <label>Message</label>
+             <textarea id="message" placeholder="Leave your message here"></textarea>
+         </div>
+         <div id="email_footer">
+             <input type="checkbox" id="copy" name="Copy" value="Copy"> Save a copy
+             <input id="submit" type="submit" onclick="sendmail()" value="Send Mail">
+         </div>
+         
+    </div>
+    <div class="container">
+     <ul>
+        <li style="background: #e3e6e8;"><img src="img/profile-icon.png" hspace="5"><a href="">MY PROFILE</a>
+        <div class="border"></div>
+        <ul>
+            <li><a href="">INVITE FRIENDS</a></li>
+            <li><a href="">FIND FRIENDS</a></li>
+            <li><a href="">LOGOUT</a></li>
+        </ul>
+         </li>
+         <li><img src="img/pencil.png" hspace="5"><a href="">EDIT</a></li>
+      </ul>
+      </div>
+     </div>
+ </body>
+</html>

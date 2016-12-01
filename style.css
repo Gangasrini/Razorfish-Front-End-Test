@@ -1,0 +1,257 @@
+.whole_container
+{
+    width:700px;
+    display: inline-block;
+}
+
+#container_email
+{
+    padding: 10px;
+    width: 320px;
+    height: auto;
+    text-align: left;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: 'Play', sans-serif;
+    font-family: 'Asap', sans-serif;
+    background-color: aliceblue;
+    display: inline-block;
+}
+
+#container_email>div
+{
+    padding: 0;
+    margin-bottom: 10px;
+}
+#email_contact
+{
+    
+    display:inline-block;
+    position:relative;
+}
+
+input,
+
+{
+    background-color:transparent;
+    border:0;
+}
+
+
+
+/* Begin placeholder styling*/
+::-webkit-input-placeholder 
+{ /* Chrome/Opera/Safari */
+    font-family: 'Play', sans-serif;
+    font-family: 'Asap', sans-serif;
+}
+::-moz-placeholder
+{ /* Firefox 19+ */
+    font-family: 'Play', sans-serif;
+    font-family: 'Asap', sans-serif;
+}
+:-ms-input-placeholder
+{ /* IE 10+ */
+    font-family: 'Play', sans-serif;
+    font-family: 'Asap', sans-serif;
+}
+:-moz-placeholder
+{ /* Firefox 18- */
+    font-family: 'Play', sans-serif;
+    font-family: 'Asap', sans-serif;
+}
+/* End placeholder styling*/
+
+input
+{
+    padding-right:30px; /* button padding */
+    font-family: 'Play', sans-serif;
+    font-family: 'Asap', sans-serif;
+}
+
+#submit
+{
+    width:100px;
+    height:38px;
+    border:none;
+    margin-top:15px;
+    float:right;    
+    cursor:pointer;
+    
+    color: #fff;
+    text-shadow: -2px 2px #346392;
+    background-color: #0099ff;
+    background-image: linear-gradient(top, #6496c8, #346392);
+    box-shadow: inset 0 0 0 1px #27496d;
+}
+
+#submit:hover 
+{
+    box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+}
+
+#submit:active
+{
+    box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 30px #193047;
+}
+
+
+#copy
+{
+    width:20px;
+    height: 15px;
+    margin-top:20px;
+}
+
+label
+{
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;        
+}
+
+textarea
+{
+	max-width:300px;
+	height:50px!important;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+
+
+/*
+
+
+/* Style the text boxes */
+
+
+textarea 
+{
+	height:100px 	
+}
+
+input, textarea 
+{
+    width:300px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+*/
+
+
+/* Style for emails */
+
+#email_contact
+{
+  float:left;
+  border:1px solid #ccc;
+  padding:5px;
+  font-family:Arial;
+}
+#email_contact span.tag
+{
+  display:block;
+  float:left;
+  color:#fff;
+  background:#689;
+  padding:5px;
+  padding-right:25px;
+  margin:4px;
+}
+#email_contact span.tag:after
+{
+  position:absolute;
+  content:"x";
+  border:1px solid;
+  padding:0 4px;
+  margin:3px 0 10px 5px;
+  cursor:pointer;
+  font-size:10px;
+}
+#email_contact input
+{
+  background:#eee;
+  border:0;
+  margin:4px;
+  padding:7px;
+  width:auto;
+}
+/* styling the Menu */
+.container
+{
+    width: 235px;
+    height: 137px;
+    border: 2px solid #eee;
+    float:right;  
+    border-radius: 5px;
+}
+img
+{
+    width:16px;
+    height: 16px;
+    
+        
+}
+ul
+{
+    margin:0;
+    padding: 0;
+    list-style:none;
+}
+ul>li
+{
+    float:left;
+    width: 117px;
+    height: 35px;
+    line-height: 30px;
+    background: #ffffff;
+    font-family: 'Play', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-size: 14px;
+    text-align: center
+    
+    
+}
+
+ul>li.active
+{
+    border-bottom: 5px solid #555;
+    margin-bottom: -5px
+}
+
+li a
+{
+    text-decoration: none;
+    color:grey;
+    font-family: 'Play', sans-serif;
+    font-family: 'Asap', sans-serif;
+}
+
+ul li li:hover
+{
+    background: #e3e6e8;
+    border-left: 2px solid #309932;
+    height: auto;
+  
+}
+
+.border
+{
+    border-bottom: 2px solid #309932;
+   
+}
